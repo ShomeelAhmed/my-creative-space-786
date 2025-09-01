@@ -1,33 +1,33 @@
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
+      title: "Frontend Development",
       skills: [
         { name: "React", level: 95 },
+        { name: "Next.js", level: 92 },
         { name: "TypeScript", level: 90 },
-        { name: "Next.js", level: 85 },
-        { name: "Tailwind CSS", level: 92 },
-        { name: "Vue.js", level: 80 },
+        { name: "JavaScript (ES6+)", level: 95 },
+        { name: "jQuery", level: 85 },
       ]
     },
     {
-      title: "Backend",
+      title: "UI Frameworks & Styling",
       skills: [
-        { name: "Node.js", level: 88 },
-        { name: "Python", level: 85 },
-        { name: "PostgreSQL", level: 82 },
-        { name: "MongoDB", level: 80 },
-        { name: "GraphQL", level: 75 },
+        { name: "Tailwind CSS", level: 95 },
+        { name: "MUI", level: 90 },
+        { name: "Ant Design", level: 88 },
+        { name: "ShadCN", level: 85 },
+        { name: "Styled Components", level: 80 },
       ]
     },
     {
-      title: "Tools & Others",
+      title: "Core & Management",
       skills: [
-        { name: "Git", level: 95 },
-        { name: "Docker", level: 78 },
-        { name: "AWS", level: 72 },
-        { name: "Figma", level: 85 },
-        { name: "Jest", level: 80 },
+        { name: "HTML5/CSS3", level: 95 },
+        { name: "Project Management", level: 90 },
+        { name: "SEO Optimization", level: 88 },
+        { name: "Node.js", level: 80 },
+        { name: "Redux Toolkit", level: 85 },
       ]
     }
   ];
@@ -80,8 +80,8 @@ const Skills = () => {
         <div className="mt-16 text-center">
           <div className="inline-flex flex-wrap gap-4 justify-center">
             {[
-              "JavaScript", "React", "TypeScript", "Node.js", "Python", 
-              "PostgreSQL", "MongoDB", "Docker", "AWS", "Git", "Figma"
+              "React", "Next.js", "TypeScript", "Tailwind CSS", "MUI", 
+              "JavaScript", "HTML5", "CSS3", "Redux", "Node.js", "SEO"
             ].map((tech) => (
               <span 
                 key={tech}

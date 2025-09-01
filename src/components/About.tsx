@@ -32,9 +32,9 @@ const About = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate developer with over X years of experience creating digital solutions 
-            that make a difference. I love turning complex problems into simple, beautiful, and 
-            intuitive solutions.
+            I'm a passionate Frontend Architect & Project Manager with over 7 years of experience 
+            building scalable, high-performance web applications. I bridge the gap between design, 
+            development, and business goals while leading teams to deliver exceptional results.
           </p>
         </div>
         
@@ -42,13 +42,14 @@ const About = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold mb-4">My Journey</h3>
             <p className="text-muted-foreground leading-relaxed">
-              My journey in technology started with curiosity and grew into a deep passion for 
-              creating meaningful digital experiences. I specialize in full-stack development, 
-              with expertise in modern frameworks and a keen eye for design.
+              My expertise lies in converting Figma, XD, and PSD designs into responsive, pixel-perfect UIs 
+              using React, Next.js, and modern frontend technologies. I've worked across healthcare, real estate, 
+              e-commerce, and social networking platforms, delivering CRM systems, dashboards, and SaaS solutions.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to 
-              open-source projects, or sharing knowledge with the developer community.
+              As a project manager, I coordinate cross-functional teams, ensure timely deliveries, and provide 
+              future-proof solutions. My focus on SEO optimization, performance tuning, and user-centric design 
+              ensures every project exceeds expectations.
             </p>
           </div>
           
@@ -58,19 +59,19 @@ const About = () => {
               <div className="space-y-4">
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Experience:</span>
-                  <span className="font-semibold">X+ Years</span>
+                  <span className="font-semibold">7+ Years</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Projects Completed:</span>
-                  <span className="font-semibold">50+</span>
+                  <span className="text-muted-foreground">Specialization:</span>
+                  <span className="font-semibold">Frontend Architecture</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Coffee Consumed:</span>
-                  <span className="font-semibold">∞ Cups</span>
+                  <span className="text-muted-foreground">Industries:</span>
+                  <span className="font-semibold">Healthcare, E-commerce, SaaS</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Location:</span>
-                  <span className="font-semibold">Your City</span>
+                  <span className="text-muted-foreground">Role:</span>
+                  <span className="font-semibold">Lead Developer & PM</span>
                 </div>
               </div>
             </div>

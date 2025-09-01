@@ -22,16 +22,17 @@ const Hero = () => {
         <div className="text-center max-w-4xl mx-auto animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-slide-up">
             Hi, I'm{" "}
-            <span className="gradient-text">Your Name</span>
+            <span className="gradient-text">Shomeel Ahmed</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-up [animation-delay:200ms]">
-            Full Stack Developer & Creative Problem Solver
+            Frontend Architect & Project Manager
           </p>
           
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed animate-slide-up [animation-delay:400ms]">
-            I craft beautiful, functional web experiences with modern technologies. 
-            Passionate about clean code, user experience, and bringing ideas to life.
+            With 7+ years of experience building scalable, high-performance web applications. 
+            I specialize in transforming design concepts into pixel-perfect, SEO-optimized interfaces 
+            while managing teams and ensuring timely project delivery.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-slide-up [animation-delay:600ms]">
